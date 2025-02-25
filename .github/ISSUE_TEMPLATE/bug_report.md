@@ -1,38 +1,22 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Report a bug in qmpbackup
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+qemu command line:
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+qmpbackup command line:
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+error (if known):
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+qemu version:
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+qmpbackup version:
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+Run your command again with `--debug` and *attach* (don't paste) the output here.
 
-**Additional context**
-Add any other context about the problem here.
+*Attach* (don't paste) the output of `qmpbackup --debug --socket /path/to/your/socket info --show blockdev`
